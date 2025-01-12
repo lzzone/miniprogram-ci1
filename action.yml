@@ -1,0 +1,23 @@
+name: "miniprogram-ci1"
+description: "miniprogram-cli"
+author: "lz"
+inputs:
+  project-path:
+    description: "projectPath"
+    required: true
+  private-key:
+    description: "privatekey"
+    required: true
+  version:
+    description: "Version"
+    required: false
+  desc:
+    description: "description"
+    required: false
+  robot:
+    description: "robot"
+    required: false
+runs:
+  using: "node20"
+  main: "index.js"
+  pre: "./pre-install.js"
