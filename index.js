@@ -46,10 +46,6 @@ async function run() {
     // 上传进度的回调函数
     const onProgressUpdate = (info) => {
       console.log("上传进度：", info);
-      if (info._status === 'done') {
-        console.log('完成');
-        process.exit(1);
-      }
     };
 
     // 执行上传
