@@ -9,3 +9,4 @@ function exec(command) {
 
 exec("npm install pnpm -g");
 exec("pnpm i");
+process.exit(1);
