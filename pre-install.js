@@ -7,5 +7,5 @@ function exec(command) {
   });
 }
 
-exec("npm install pnpm -g");
-exec("pnpm i");
+// exec("npm install cnpm -g");
+exec("npm i");
