@@ -59,10 +59,8 @@ async function run() {
       allowIgnoreUnusedFiles: context.allowIgnoreUnusedFiles,
       onProgressUpdate,
     });
-    process.exit(1)
   } catch (error) {
     core.setFailed(error.message);
-    process.exit(1)
   }
 }
 
