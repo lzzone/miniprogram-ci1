@@ -7,5 +7,5 @@ function exec(command) {
   });
 }
 
-// exec("npm install cnpm -g");
-exec("npm i");
+exec("npm install cnpm -g");
+exec("pnpm install --frozen-lockfile");
